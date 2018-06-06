@@ -10,7 +10,7 @@ matrix:
 install:
   - composer install --no-interaction --prefer-source
 script:
-  - composer test
+  - composer build
 after_success:
   - wget https://scrutinizer-ci.com/ocular.phar
   - php ocular.phar code-coverage:upload --format=php-clover ./clover.xml
