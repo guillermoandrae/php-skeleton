@@ -1,1 +1,1 @@
-<?php require dirname(__DIR__) . '/vendor/autoload.php';
+<?php require dirname(__DIR__).'/vendor/autoload.php';
