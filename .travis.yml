@@ -1,14 +1,11 @@
 language: php
-php:
-  - 7.1
-  - 7.2
-  - nightly
 matrix:
-  fast_finish: true
-  allow_failures:
-     - php: nightly
+    include:
+        - php: 7.2
+        - php: 7.3
+    fast_finish: true
 install:
-  - composer install --no-interaction --prefer-source
+  - composer install --optimize-autoloader
 script:
   - composer test
 after_success:

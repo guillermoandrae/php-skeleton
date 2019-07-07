@@ -11,17 +11,17 @@ composer create-project guillermoandrae/php-skeleton [project name]
 ```
 
 ## Testing
-Run the following command to make sure you don't ruin the code coverage percentage:
-```
-composer check-coverage
-```
-
 Run the following command to make sure your code is appropriately styled:
 ```
 composer check-style
 ```
 
-Run the following command to invoke both of the above commands easily:
+Run the following command to check style, run tests, and generate a Clover report:
 ```
 composer test
+```
+
+Run the following command to check style, run tests, and generate an HTML report:
+```
+composer test-html
 ```

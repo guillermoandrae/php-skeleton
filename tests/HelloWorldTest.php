@@ -5,7 +5,7 @@ namespace GuillermoandraeTest;
 use Guillermoandrae\HelloWorld;
 use PHPUnit\Framework\TestCase;
 
-class HelloWorldTest extends TestCase
+final class HelloWorldTest extends TestCase
 {
     public function testHello()
     {
