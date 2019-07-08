@@ -31,7 +31,8 @@
         ],
         "test-html": [
             "@check-style",
-            "phpunit --coverage-text --coverage-html report"
+            "phpunit --coverage-text --coverage-html report",
+            "php -S localhost:8080 -t report/ > report/phpd.log 2>&1"
         ]
     }
 }
