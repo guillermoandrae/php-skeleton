@@ -21,7 +21,7 @@ Run the following command to check style, run tests, and generate a Clover repor
 composer test
 ```
 
-Run the following command to check style, run tests, and generate an HTML report:
+Run the following command to check style, run tests, and generate an HTML report (access the report at http://localhost:8080):
 ```
 composer test-html
 ```
