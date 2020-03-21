@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56784ec4fe357d1c4df216ee298b6f60",
+    "content-hash": "a30471a920d63c48c3a507e96e0b4cad",
     "packages": [
         {
             "name": "guillermoandrae/php-debug",
