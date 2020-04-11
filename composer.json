@@ -4,8 +4,8 @@
     "license": "MIT",
     "require": {
         "php": ">=7.2",
-        "icanboogie/inflector": "^1.5",
-        "ext-json": "^1.6"
+        "ext-json": "*",
+        "icanboogie/inflector": "^1.5"
     },
     "autoload": {
         "psr-4": {
